@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1200px) {
+    .hero-text-box,
+    .row {
+        width: 100%;
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .grid-about-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-process-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-work-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-work-items:nth-child(5) {
+        grid-column: 1/2;
+    }
+    .menu-item ul li a {
+        font-size: 200%;
+        letter-spacing: 0;
+        margin: 10px 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .single-form-btn {
+        text-align: left;
+    }
+    .menu-item ul li a {
+        font-size: 160%;
+    }
+    .grid-about-items:nth-child(3) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #testimonial {
+        background: rgba(217, 217, 217, 0.5);
+    }
+    .grid-testimonial-container {
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body,
+    html {
+        font-size: 8px;
+    }
+    .btn,
+    .btn:link,
+    .btn:visited {
+        width: 100px;
+        padding: 8px 0;
+    }
+    .skill-box p:nth-child(2) {
+        margin-top: -18px;
+    }
+    .grid-about-container {
+        grid-template-columns: 1fr;
+        grid-gap: 60px 0;
+        text-align: center;
+    }
+    .grid-about-items:nth-child(3) {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .paul {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    .intro {
+        text-align: left;
+    }
+    .about-paul {
+        margin: 20px 0 35px 0;
+        text-align: left;
+    }
+    .btn,
+    .btn:link,
+    .btn:visited {
+        display: block;
+    }
+    .skill-box p:nth-child(1) {
+        text-align: left;
+    }
+    .skill-box p:nth-child(2) {
+        margin-top: -25px;
+    }
+    .grid-contact-container,
+    .grid-ex-container,
+    .grid-process-container,
+    .grid-work-container {
+        grid-template-columns: 1fr;
+    }
+}
